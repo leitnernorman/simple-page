@@ -1,10 +1,12 @@
 import Pic from '../assets/pic.jpeg';
+import Laptop from '../assets/laptop.jpg';
+
 
 function Analytics() {
     return ( 
         <div className="w-full bg-black py-16 px-4">
             <div className="max-w-[1240px] h-max mx-auto grid md:grid-cols-2">
-                <img className='w-[500px] mx-auto my-4' src={Pic} alt='pic' />
+                <img className='w-[500px] mx-auto my-4' src={Laptop} alt='pic' />
                 <div className='flex flex-col justify-center text-white'>
                     <p className='text-green-500 font-bold'>DATA ANALYTICS DASHBOARD</p>
                     <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">Manage Data Analytics Centrally</h1>
